@@ -1,0 +1,31 @@
+{
+  "name": "task_seo",
+  "version": "0.0.1",
+  "description": "",
+  "author": "mervynwang<alpe.g2@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "htmlparser",
+    "selector",
+    "seo",
+    "parser",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mervynwang/task_seo.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.3.1",
+    "require-ini": "0.0.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}

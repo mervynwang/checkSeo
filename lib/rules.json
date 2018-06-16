@@ -1,0 +1,11 @@
+[
+	{ "tag": "img", "rules" : [ ["hasNotAttr", "alt"]] },
+	{ "tag": "a", "rules" : [ ["hasNotAttr", "rel"]] },
+	{ "tag": "strong", "rules" : [ ["gt", 15]] },
+	{ "tag": "h1", "rules" : [ ["gt", 1]] },
+	{ "tag": "h2", "rules" : [ ["adsence"] ] },
+	{ "tag": "head", "rules" : [ 
+		["haveChild", "title"],
+		["haveChild", "meta[name=descriptions]"],
+		["haveChild", "meta[name=keywords]"]] }
+]
