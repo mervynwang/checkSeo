@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mervynwang/task_seo.git"
+    "url": "git://github.com/mervynwang/checkSeo.git"
   },
   "main": "./index.js",
   "engines": {
